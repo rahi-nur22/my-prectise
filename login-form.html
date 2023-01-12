@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/2859403ef4.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40%;   background-color: gainsboro;
+        }
+        .login-form ,input{
+            margin-top: 10px;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+         
+        }
+        .login-form input[type="submit"]{
+            background-color:  rgb(36, 35, 35);
+            color: whitesmoke;
+            border: 0;
+            border-radius: 5px;
+            font-weight:700;
+            width:50% ;
+            margin-bottom: 10px;
+        }
+       nav, a{text-decoration: none;
+        color: black;
+        margin-right: 10px ;
+             
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <span>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Form</a>
+            <a href="">FAQ</a>
+        </span>
+       <span>
+        <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+       </span>
+      </nav>
+    </header>
+    <section class="main">
+        <form action="" class="login-form">
+            <h1>Please login</h1>
+            <input type="text" placeholder="your name" required>
+            <input type="email"placeholder="your email"required>
+            <input type="password"placeholder="your password"required>
+            <input type="submit"
+            value="login">
+        </form>
+    </section>
+</body>
+</html>

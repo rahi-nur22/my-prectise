@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website</title>
+    <style>
+        body{
+           max-width: 600px;
+            border: 1px solid black;
+            margin: 0 auto;
+            background-color:rgb(230, 230, 232);
+
+        }
+        .containeres .split{
+            width: 50%;
+        }
+        .containeres{
+            display: flex;
+           
+        }
+        .split, img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+    .food{ background-color: rgb(255, 255, 255);}
+        
+        .food img{
+            width: 100%;
+        }
+            .container .food{
+                border: 2px solid green;
+                border-radius: 8px;
+            }
+        @media screen and (max-width:700px) {
+            .containeres{
+                flex-direction: column;
+            }
+            .containeres .split{
+            width: 100%;
+        }
+        .container{
+            grid-template-columns: repeat(2 ,1fr);
+      
+        }
+
+        }
+    </style>
+</head>
+<body>
+     <h1>this is reponsive website</h1>
+     <img src="imges/food1.jpg" alt="">
+     <section>
+        <div class="containeres">
+            <div class="split"><img src="imges/cene.jpeg" alt=""></div>
+            <div class="split"><img src="imges/food.jpg" alt=""></div>
+            
+        </div>
+     </section>
+     <section>
+        <h2>grid responsive(multi column)</h2>
+        <div class="container">
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-1</h2>
+                <h3>frice:100</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore soluta magnam in tempore iure nulla eos repellendus, molestiae beatae voluptates laudantium deleniti mollitia perspiciatis, voluptatibus nam quas laboriosam ullam earum. Fuga nostrum recusandae similique assumenda.</p>
+                <button>Order Now</button>
+                
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-2</h2>
+                <h3>frice:200</h3>
+                <p>Dolor aliquam sed sequi animi. Harum expedita, sequi molestiae dolorum ex exercitationem perspiciatis cum quos neque temporibus provident quia assumenda reprehenderit pariatur, quas magnam nam! Magni, hic cupiditate consectetur dolorum voluptas ipsum error quasi beatae.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-3</h2>
+                <h3>frice:300</h3>
+                <p>Praesentium optio dolore ducimus a est eos fugiat suscipit sapiente sit velit fuga eligendi ex provident recusandae fugit quas in placeat incidunt, alias cupiditate ipsam commodi id. Optio enim minima eos ducimus impedit suscipit ipsa.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-4</h2>
+                <h3>frice:400</h3>
+                <p>Perferendis ipsum rem autem earum aliquid ipsam sint? Quidem, consequuntur. Laborum et iure magnam non, quibusdam, aliquid repellat quisquam doloremque animi nisi cum eaque quod explicabo, ea omnis porro! Explicabo asperiores tempore cum nihil soluta.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-5</h2>
+                <h3>frice:500</h3>
+                <p>Ut excepturi fugit, velit officia incidunt natus neque rem? Laudantium incidunt officia quo unde accusantium maiores ducimus itaque commodi tempora? Hic ea ex cupiditate officia voluptatum eaque error. Neque inventore quam laudantium animi beatae dolor!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-6</h2>
+                <h3>frice:600</h3>
+                <p>Facere assumenda laboriosam possimus quia ab tempore tenetur, in, dicta nihil modi dignissimos a atque, quas illum eligendi suscipit? Quasi voluptas quis in natus quod quia. Deserunt mollitia ullam aut quia nihil veritatis repellat ipsam.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-7</h2>
+                <h3>frice:700</h3>
+                <p>Veritatis provident temporibus similique sequi quia consectetur dignissimos quibusdam doloremque voluptates sed deleniti facere aut magnam repellat, nobis doloribus ut earum. Nihil necessitatibus sunt qui incidunt tempore fugiat ipsum inventore dolorum. Quam voluptatibus accusamus numquam!</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-8</h2>
+                <h3>frice:800</h3>
+                <p>Suscipit possimus adipisci eligendi tempora perferendis modi ipsam sequi. Mollitia praesentium magnam, aliquid quaerat harum possimus, unde cumque, dicta voluptatem vero explicabo dolor voluptates veniam. Neque sint unde odit expedita aspernatur totam harum impedit pariatur.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-9</h2>
+                <h3>frice:900</h3>
+                <p>Nemo fuga ad doloremque corporis ex, minus voluptatem unde sint repellendus soluta aliquid nam minima saepe delectus. Nisi, cupiditate ea tempora repellendus labore minima cumque quibusdam facilis accusamus neque voluptas aperiam, ullam rerum voluptate. Vitae.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-10</h2>
+                <h3>frice:1000</h3>
+                <p>Veritatis atque officiis voluptate nihil veniam iusto, earum laborum dolore tempora ullam molestiae aliquam hic necessitatibus voluptates reiciendis ipsam voluptatem suscipit inventore assumenda voluptatibus placeat eos? Maiores omnis tenetur quis ut vitae id blanditiis perferendis.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-11</h2>
+                <h3>frice:1100</h3>
+                <p>Tenetur voluptatibus iure veritatis rerum maxime doloribus sit voluptate, aut, numquam expedita consequatur, debitis nemo natus. Aut praesentium explicabo quo tempore facere consequatur at sunt. Laboriosam voluptatibus nobis eveniet illum consectetur, nulla numquam consequatur quos?</p>
+                <button>Order Now</button>
+            </div>
+            <div class="food">
+                <img src="imges/food1.jpg" alt="">
+                <h2>item-12</h2>
+                <h3>frice:1200</h3>
+                <p>Quisquam suscipit sunt commodi amet atque hic, doloribus repudiandae quas voluptates perspiciatis nam labore. Illo eius quibusdam autem libero inventore quisquam aliquid neque dignissimos nisi, cupiditate nihil molestias voluptate modi necessitatibus praesentium, nesciunt obcaecati aliquam.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+     </section>
+</body>
+</html>
